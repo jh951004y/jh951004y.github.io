@@ -61,7 +61,7 @@ function AdminPage() {
     return (
         <div className='admin'>
             <div className="admin-header">
-                <h1>관리자 페이지 <span>※ 상품 추가/삭제 및 결과 표시 방식 변경 후에는 ‘저장하기’를 눌러야 반영됩니다.</span></h1>
+                <h1>관리자 페이지 (서울) <span>※ 상품 추가/삭제 및 결과 표시 방식 변경 후에는 ‘저장하기’를 눌러야 반영됩니다.</span></h1>
                 <div className="admin-status">
                     <button
                         className="btn-white btn-icon"
