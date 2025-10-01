@@ -99,7 +99,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border: 3px solid #ffacc9;
+    border: 3px solid #7dc9fe;
     border-radius: 100px;
 }
 
@@ -154,7 +154,7 @@
     border: 0 !important;
     width: 100%;
     color: #ffffff;
-    background-color: #ffacc9;
+    background-color: #7dc9fe;
     margin: 0 auto;
 }
 
@@ -346,7 +346,7 @@
 
 .pulse span {
     animation: pulseOpacity 1s infinite;
-    color: #ffacc9;
+    color: #7dc9fe;
 }
 
 .copy {

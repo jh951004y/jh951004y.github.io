@@ -145,9 +145,9 @@ function DrawPage() {
                                 )}
                                 <div className='draw-row'>
                                     <div className="draw-count-control">
-                                        <button className='minus' onClick={() => setDrawCount((prev) => Math.max(1, prev - 1))}><Minus color='#ff84b0'/></button>
+                                        <button className='minus' onClick={() => setDrawCount((prev) => Math.max(1, prev - 1))}><Minus color='#7dc9fe'/></button>
                                         <input type="number" min="1" max="100" value={drawCount} onChange={(e) => setDrawCount(Number(e.target.value))} style={{fontWeight: 'bold'}} />
-                                        <button className='plus' onClick={() => setDrawCount((prev) => Math.min(100, prev + 1))}><Plus color='#ff84b0'/></button>
+                                        <button className='plus' onClick={() => setDrawCount((prev) => Math.min(100, prev + 1))}><Plus color='#7dc9fe'/></button>
                                     </div>
                                 </div>
                                 <button className={`go-draw`} onClick={draw} disabled={!isAdmin} style={{width: 260}}>
